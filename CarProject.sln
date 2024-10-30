@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarProject", "CarProject\CarProject.csproj", "{DCDD3D1B-EC5A-484F-9394-AEC126C4FC09}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B2814C57-3743-4FA4-B22E-BABD2E332AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarProject.Domain", "Core\CarProject.Domain\CarProject.Domain.csproj", "{7BE396D4-ED39-4A96-A5A9-6CC66A6845A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DCDD3D1B-EC5A-484F-9394-AEC126C4FC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCDD3D1B-EC5A-484F-9394-AEC126C4FC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCDD3D1B-EC5A-484F-9394-AEC126C4FC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCDD3D1B-EC5A-484F-9394-AEC126C4FC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE396D4-ED39-4A96-A5A9-6CC66A6845A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE396D4-ED39-4A96-A5A9-6CC66A6845A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE396D4-ED39-4A96-A5A9-6CC66A6845A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE396D4-ED39-4A96-A5A9-6CC66A6845A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BE396D4-ED39-4A96-A5A9-6CC66A6845A2} = {B2814C57-3743-4FA4-B22E-BABD2E332AD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76B7AA84-9693-4657-8218-1668717512CC}
